@@ -67,6 +67,7 @@
         }
     }
     $(function() {
+
         var dd = new DropDown( $('#dd') );
         $(document).click(function() {
 // all dropdowns

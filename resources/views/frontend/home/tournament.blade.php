@@ -1,7 +1,1 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Admin
- * Date: 20/8/2560
- * Time: 19:15
- */
+<h3>Tournament</h3>

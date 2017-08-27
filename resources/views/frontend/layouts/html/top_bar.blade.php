@@ -25,7 +25,7 @@
 
                 <div class="top-right">
                     <div class="demos">
-                        <a href="{{ route("live") }}" style="background: #ec3233;"><span class="fa fa-youtube-play fa-lg"></span> Live</a>
+                        <a href="{{ route("live") }}"><span class="fa fa-youtube-play fa-lg"></span> Live</a>
                     </div>
 
                     <section class="main">

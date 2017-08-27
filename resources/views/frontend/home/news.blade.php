@@ -1,92 +1,33 @@
-<div class="col-md-8">
+<?php
+$newsList = null;
+?>
+<div class="col-lg-12">
+    <section class="post-detail">
 
-    <!-- Posts Start -->
-    <section class="home2-posts">
-        <div class="post-sec">
-            <img src="images/h2-img1.jpg" alt="">
-            <div class="detail">
-
-                <h4>10 free high quality Apple device mockups</h4>
-                <ul class="icons-sec">
-                    <li><a href="#."><i class="icon-user2"></i>John Doe</a></li>
-                    <li><i class="icon-calendar"></i>May 01, 2014</li>
-                    <li><a href="#."><i class="icon-heart"></i>1786</a></li>
-                </ul>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  that Aenean Vivamus convallis gravida libero, in semper erat massa
-                    Cum penatibus magnis power work consectetuer adipiscing elit. Aenean commodo ligula eget dolor. …</p>
-                <a href="detail-style7.html" class="read-more">read more</a>
+        <div class="row">
+            <div class="col-lg-12 col-sm-12">
+                <h3 class="title-line"><i class="fa fa-lg fa-gamepad"></i> E-SPORT NEWS</h3>
             </div>
-        </div>
-
-        <div class="post-sec">
-            <img src="images/h2-img3.jpg" alt="">
-            <div class="detail">
-
-                <h4>10 free high quality Apple device mockups</h4>
-                <ul class="icons-sec">
-                    <li><a href="#."><i class="icon-user2"></i>John Doe</a></li>
-                    <li><i class="icon-calendar"></i>May 01, 2014</li>
-                    <li><a href="#."><i class="icon-heart"></i>1786</a></li>
-                </ul>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  that Aenean Vivamus convallis gravida libero, in semper erat massa
-                    Cum penatibus magnis power work consectetuer adipiscing elit. Aenean commodo ligula eget dolor. …</p>
-                <a href="detail-style1.html" class="read-more">read more</a>
-            </div>
-        </div>
-
-        <div class="post-sec">
-            <img src="images/h2-img2.jpg" alt="">
-            <div class="detail">
-
-                <h4>10 free high quality Apple device mockups</h4>
-                <ul class="icons-sec">
-                    <li><a href="#."><i class="icon-user2"></i>John Doe</a></li>
-                    <li><i class="icon-calendar"></i>May 01, 2014</li>
-                    <li><a href="#."><i class="icon-heart"></i>1786</a></li>
-                </ul>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  that Aenean Vivamus convallis gravida libero, in semper erat massa
-                    Cum penatibus magnis power work consectetuer adipiscing elit. Aenean commodo ligula eget dolor. …</p>
-                <a href="detail-style2.html" class="read-more">read more</a>
-            </div>
-        </div>
-
-        <div class="post-sec">
-            <img src="images/h2-img4.jpg" alt="">
-            <div class="detail">
-
-                <h4>10 free high quality Apple device mockups</h4>
-                <ul class="icons-sec">
-                    <li><a href="#."><i class="icon-user2"></i>John Doe</a></li>
-                    <li><i class="icon-calendar"></i>May 01, 2014</li>
-                    <li><a href="#."><i class="icon-heart"></i>1786</a></li>
-                </ul>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  that Aenean Vivamus convallis gravida libero, in semper erat massa
-                    Cum penatibus magnis power work consectetuer adipiscing elit. Aenean commodo ligula eget dolor. …</p>
-                <a href="detail-style5.html" class="read-more">read more</a>
-            </div>
-        </div>
-
-        <div class="post-sec">
-            <img src="images/h2-img5.jpg" alt="">
-            <div class="detail">
-
-                <h4>10 free high quality Apple device mockups</h4>
-                <ul class="icons-sec">
-                    <li><a href="#."><i class="icon-user2"></i>John Doe</a></li>
-                    <li><i class="icon-calendar"></i>May 01, 2014</li>
-                    <li><a href="#."><i class="icon-heart"></i>1786</a></li>
-                </ul>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  that Aenean Vivamus convallis gravida libero, in semper erat massa
-                    Cum penatibus magnis power work consectetuer adipiscing elit. Aenean commodo ligula eget dolor. …</p>
-                <a href="detail-style3.html" class="read-more">read more</a>
+            <div class="foreach-news">
+                @if(count($newsList) == 0)
+                    <center>
+                        <br><br>
+                        <h3><i class="fa fa-lg fa-times"></i> ยังไม่มีข่าวสาร ณ เวลานี้.</h3>
+                    </center>
+                    @else
+                    <div class="col-md-4">
+                        <a class="articles-posts" href="detail-style6.html">
+                            <div class="v-player"><img src="images/player-icon.png" alt=""></div>
+                            <div class="post-meta">
+                                <span class="title">Car Collection</span>
+                                <span class="author">John Doe <span class="date">Jul 6, 2015</span></span>
+                            </div>
+                            <div class="black-shadow"></div>
+                            <img src="images/featured-14.jpg" alt="">
+                        </a>
+                    </div>
+                @endif
             </div>
         </div>
     </section>
-    <!-- Posts End -->
-
-    <div class="more-posts">
-        <a href="index2.html" class="new-posts"><img src="images/small-left-arrow.png" alt="">new posts </a>
-        <a href="index2.html" class="older-posts">older posts<img src="images/small-right-arrow.png" alt=""></a>
-    </div>
-
 </div>
