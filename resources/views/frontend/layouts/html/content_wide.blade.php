@@ -3,10 +3,9 @@
 <section class="main-content">
     <div class="container">
         <div class="row">
-            <section class="col-lg-8 col-sm-12">
+            <section class="col-lg-12 col-sm-12">
                 @yield('content')
             </section>
-            @include('frontend.layouts.html.sidebar')
         </div>
     </div>
 </section>
