@@ -5,28 +5,21 @@
             <div class="col-md-12">
                 <div class="navi">
                     <ul class="top-nav">
-                        <li><a href="index.html">Home</a>
+                        <?php
+                        if(!Auth::check()){
+                        ?>
+                        <li><a href="#"><span class="fa fa-user"></span> Welcome, Guest</a>
                             <ul class="sub-menu">
-                                <li><a href="index.html">homepage I</a></li>
-                                <li><a href="index2.html">homepage II</a></li>
-                                <li><a href="index3.html">homepage III</a></li>
-                                <li><a href="index4.html">homepage IV</a></li>
-                                <li><a href="index5.html">homepage V</a></li>
-                                <li><a href="index6.html">homepage VI</a></li>
-                                <li><a href="posts-style5.html">homepage VII</a></li>
+                                <li><a href="{{ url("auth/login") }}" style="font-family: 'Kanit', sans-serif;"><span class="fa fa-sign-in"></span> Login</a></li>
+                                <li><a href="{{ url("auth/register") }}" style="font-family: 'Kanit', sans-serif;"><span class="fa fa-users"></span> Register</a></li>
                             </ul>
                         </li>
-                        <li><a href="about-us.html">about us</a></li>
-                        <li><a href="#.">CATEGORIES</a>
-                            <ul class="sub-menu">
-                                <li><a href="posts-style1.html">Posts Style one</a></li>
-                                <li><a href="posts-style2.html">Posts Style two</a></li>
-                                <li><a href="posts-style3.html">Posts Style three</a></li>
-                                <li><a href="posts-style4.html">Posts Style four</a></li>
-                                <li><a href="posts-style5.html">Posts Style five</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contact.html">contact us</a></li>
+                        <?php
+                        }else{
+
+                        }
+                        ?>
+
                     </ul>
                 </div>
 
@@ -37,13 +30,12 @@
 
                     <section class="main">
                         <div class="social-menu">
-                            <div id="dd" class="social-dropdown" tabindex="1"><span class="fa fa-share-alt fa-lg"></span> we are social
+                            <div id="dd" class="social-dropdown" tabindex="1"><span class="fa fa-share-alt fa-lg"></span> Follow Us
                                 <ul class="dropdown">
-                                    <li><a href="#"><i class="icon-facebook6"></i>facebook</a></li>
-                                    <li><a href="#"><i class="icon-twitter"></i>Twitter</a></li>
-                                    <li><a href="#"><i class="icon-googleplus7"></i>Google Plus</a></li>
-                                    <li><a href="#"><i class="icon-pinterest3"></i>pinterest</a></li>
-                                    <li><a href="#"><i class="icon-dribbble6"></i>dribbble</a></li>
+                                    <li><a href="#"><span class="fa fa-facebook-official"></span> Facebook</a></li>
+                                    <li style="display: none"></li>
+                                    <li style="display: none"></li>
+                                    <li><a href="#"><span class="fa fa-youtube-play"></span> Youtube</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -60,9 +52,9 @@
 </section>
 <div class="search" id="search">
     <div class="container">
-        <form>
-            <input type="text" placeholder="Search...">
-            <a href="#."><i class="icon-cross2" id="close-search"></i></a>
+        <form class="form-search" action="" method="post">
+            <input type="text" placeholder="ค้นหาสิ่งที่ต้องการ...">
+            <a href="#" onclick="event.preventDefault()"><i class="fa fa-times" id="close-search"></i></a>
         </form>
     </div>
 </div>

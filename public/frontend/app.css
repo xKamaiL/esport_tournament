@@ -2,7 +2,7 @@
 h1,h2,h3,h4,h5,*{
     font-family: 'Kanit', sans-serif;
 }
-*,a{
+*,a,.kanit{
     font-family: 'Kanit', sans-serif;
 }
 .logo{
@@ -13,4 +13,10 @@ h1,h2,h3,h4,h5,*{
     float: left;
     margin: 0px !important;
     cursor: pointer;
+}
+.top-bar .top-right .social-dropdown {
+    font-family: 'Kanit', sans-serif;
+    font-size: 13px;
+    width: 144px;
+    padding: 16px 15px;
 }

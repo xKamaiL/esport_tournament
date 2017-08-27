@@ -97,31 +97,6 @@
 <script type="text/javascript" src="{{ url("frontend/dist/js/jquery.cubeportfolio.min.js") }}"></script>
 <script type="text/javascript" src="{{ url("frontend/dist/js/main.js") }}"></script>
 <script type="text/javascript" src="{{ url("frontend/dist/js/jquery.mmenu.min.all.js") }}"></script>
-<script type="text/javascript">
-    $(document).ready(function() {
-        $("#menu").mmenu({
-            "classes": "mm-slide",
-            "offCanvas": {
-                "position": "right"
-            },
-            "footer": {
-                "add": true,
-                "title": "Copyrights {{ date("Y") }}. all rights reserved."
-            },
 
-            "header": {
-                "title": "Add your Title",
-                "add": true,
-                "update": true
-            },
-            "searchfield": {
-                "addTo": "panels",
-                "placeholder": "Search here",
-                "add": true,
-                "search": false
-            }
-        });
-    });
-</script>
 <script type="text/javascript" src="{{ url("frontend/app.js") }}"></script>
 @stack('js')
