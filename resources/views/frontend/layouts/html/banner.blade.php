@@ -10,7 +10,7 @@
         <ul>	<!-- SLIDE  -->
             <li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-thumb="images/homeslider_thumb1.jpg"  data-saveperformance="on"  data-title="Intro Slide">
                 <!-- MAIN IMAGE -->
-                <img src="images/banner-img5.jpg"   alt="slidebg1" data-lazyload="images/banner-img5.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src="{{ url("images/banner-img5.jpg") }}"   alt="slidebg1" data-lazyload="images/banner-img5.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                 <!-- LAYERS -->
 
 
@@ -75,7 +75,7 @@
             <!-- SLIDE  -->
             <li data-transition="fade" data-slotamount="7" data-masterspeed="2000" data-thumb="images/homeslider_thumb2.jpg" data-delay="10000"  data-saveperformance="on"  data-title="Ken Burns Slide">
                 <!-- MAIN IMAGE -->
-                <img src="images/banner-img6.jpg" alt="slidebg1" data-lazyload="images/banner-img6.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src="{{ url("images/banner-img6.jpg") }}" alt="slidebg1" data-lazyload="images/banner-img6.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                 <!-- LAYERS -->
 
 
@@ -126,7 +126,7 @@
             <!-- SLIDE  -->
             <li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-thumb="images/homeslider_thumb1.jpg"  data-saveperformance="on"  data-title="Intro Slide">
                 <!-- MAIN IMAGE -->
-                <img src="images/banner-img7.jpg" alt="slidebg1" data-lazyload="images/banner-img7.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src="{{ url("images/banner-img7.jpg") }}" alt="slidebg1" data-lazyload="images/banner-img7.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                 <!-- LAYERS -->
 
 
@@ -180,7 +180,7 @@
             <!-- SLIDE  -->
             <li data-transition="fade" data-slotamount="7" data-masterspeed="600" data-thumb="images/homeslider_thumb6.jpg"  data-saveperformance="on"  data-title="Full-Width Video">
                 <!-- MAIN IMAGE -->
-                <img src="images/images/transparent.png" style='background-color:#000000' alt="" data-lazyload="images/images/transparent.png" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                <img src="{{ url("images/images/transparent.png") }}" style='background-color:#000000' alt="" data-lazyload="images/images/transparent.png" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->

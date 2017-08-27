@@ -20,3 +20,7 @@ h1,h2,h3,h4,h5,*{
     width: 144px;
     padding: 16px 15px;
 }
+.footer {
+    background: #0e0e0e;
+    padding: 0px;
+}

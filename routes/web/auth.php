@@ -1,5 +1,5 @@
 <?Php
 
-Route::prefix('auth')->as("auth.")->group(function () {
-    Auth::routes();
+Route::prefix('auth')->as("auth.")->middleware('guest')->group(function () {
+    Route::get('login', 'HomeController@index')->name("login");
 });

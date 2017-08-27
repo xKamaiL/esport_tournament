@@ -9,8 +9,8 @@
                     <div class="error">
                         <div class="error-page">
                             <div class="detail">
-                                <h1>OOOPS... ERROR 404.</h1>
-                                <h3>ขออภัย, ระบบไม่พบหน้าที่คุณต้องการ.</h3>
+                                <h1>OOOPS... Error 500.</h1>
+                                <h3>ขออภัย, มีบางอย่างผิดพลาด.</h3>
                                 <a href="{{ route("index") }}"><i class="icon-home"></i> Home</a>
                             </div>
                         </div>

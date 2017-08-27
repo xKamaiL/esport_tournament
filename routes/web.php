@@ -7,3 +7,7 @@ foreach($files as $file) {
         include $file->getPathName();
 }
 
+Route::get('500', function()
+{
+    abort(500);
+});
