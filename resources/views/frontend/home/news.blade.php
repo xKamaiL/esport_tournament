@@ -12,7 +12,7 @@ $newsList = null;
                 @if(count($newsList) == 0)
                     <center>
                         <br><br>
-                        <h3><i class="fa fa-lg fa-times"></i> ยังไม่มีข่าวสาร ณ เวลานี้.</h3>
+                        <h3 style="margin-top: 300;"><i class="fa fa-lg fa-times"></i> ยังไม่มีข่าวสาร ณ เวลานี้.</h3>
                     </center>
                     @else
                     <div class="col-md-4">
